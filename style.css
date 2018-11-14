@@ -1,0 +1,98 @@
+body{
+    margin: 0 auto;
+    color: black;
+    width: 980px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    }
+
+.invitation{
+    margin: 0 auto;
+}
+
+h3{
+    align-content: center;
+    font-size: 40px;
+    position: relative;
+    top: 180px;
+    left: 180px;
+    font-family: 'Sacramento', cursive;
+    margin: 0px;
+    } 
+
+h4{
+    align-content: center;
+    font-size: 40px;
+    position: relative;
+    top: 180px;
+    left: 300px;
+    margin: 0px;
+    font-family: 'Sacramento', cursive;
+}    
+
+.details{
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    align-content: center;
+    font-size: 18px;
+    position: relative;
+    top: 200px;
+    left: 250px;
+}  
+
+.link-menu{
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    align-content: center;
+    font-size: 18px;
+    position: relative;
+    top: 230px;
+    left: 250px;
+    padding: 1px;
+    width: 100px;
+    padding: 3px;
+    text-align: center;
+   }  
+
+/* Menu */
+.menu{
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: -100px;
+     
+}    
+
+h1{
+   font-size: 30px;
+   font-family: 'Sacramento', cursive;
+   margin: 2px;
+   }
+
+h2{
+   font-size: 28px;
+   font-family: 'Sacramento', cursive;
+   margin: 2px;
+}    
+    
+p{
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:20px;
+    margin: 2px;
+    padding: 2px;
+}    
+
+.link-index{
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    align-content: center;
+    text-align: center;
+    font-size: 18px;
+    width: 130px;
+    padding: 2px;
+    background-color: white;
+ 
+}  
+
