@@ -1,8 +1,8 @@
 body{
     margin: 0 auto;
     color: black;
-    width: 980px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -18,8 +18,8 @@ h3{
     align-content: center;
     font-size: 40px;
     position: relative;
-    top: 180px;
-    left: 180px;
+    top: 200px;
+    left: 25%;
     font-family: 'Sacramento', cursive;
     margin: 0px;
     } 
@@ -28,8 +28,8 @@ h4{
     align-content: center;
     font-size: 40px;
     position: relative;
-    top: 180px;
-    left: 300px;
+    top: 200px;
+    left: 30%;
     margin: 0px;
     font-family: 'Sacramento', cursive;
 }    
@@ -39,8 +39,8 @@ h4{
     align-content: center;
     font-size: 18px;
     position: relative;
-    top: 200px;
-    left: 250px;
+    top: 230px;
+    left: 35%;
 }  
 
 .link-menu{
@@ -48,11 +48,8 @@ h4{
     align-content: center;
     font-size: 18px;
     position: relative;
-    top: 230px;
-    left: 250px;
+    top: 250px;
     padding: 1px;
-    width: 100px;
-    padding: 3px;
     text-align: center;
    }  
 
@@ -62,7 +59,7 @@ h4{
     color: white;
     position: relative;
     top: 20px;
-    left: -100px;
+    left: 2%;
      
 }    
 
@@ -96,3 +93,60 @@ p{
  
 }  
 
+/* ============================================================================ */
+
+@media screen and (max-width: 640px){
+    .invitation, .details, .link-menu, .menu, .link-index{
+        display: block;
+    }
+
+    h3{
+        font-size: 25px;
+        position: relative;
+        top: 220px;
+        left: 10%;
+        } 
+    
+    h4{
+        font-size: 25px;
+        position: relative;
+        top: 220px;
+        left: 10%;
+        }    
+    
+    .details{
+        font-size: 12px;
+        position: relative;
+        top: 240px;
+        left: 20%;
+    }  
+    
+    .link-menu{
+        font-size: 12px;
+        position: relative;
+        top: 250px;
+    }  
+    
+    /* Menu */
+    .menu{
+        position: relative;
+        top: 10px;     
+    }    
+    
+    h1{
+       font-size: 20px;
+    }
+    
+    h2{
+       font-size: 18px;
+    }    
+        
+    p{
+        font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size:14px;
+    }    
+    
+    .link-index{
+        font-size: 14px;
+    }  
+}
